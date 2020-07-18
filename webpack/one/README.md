@@ -4,6 +4,8 @@
 cnpm install webpack -webpack-cli -D
 ```
 
+`-D`指的是开发过程中使用，只下载到本地
+
 ### 2、初始化项目
 
 1. 执行命令行`npm init -y`初始化一个默认目录
