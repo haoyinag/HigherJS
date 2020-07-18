@@ -1,13 +1,25 @@
-### 1.安装`webpack`
+### 1、初始化项目
+
+1. 执行命令行`npm init -y`初始化一个默认目录
+2. 新建一个`index.js`，输入一个 js 语句
+
+```js
+console.log("This is webpack learning Five");
+```
+
+### 2.安装`webpack`
+
+1. 安装
 
 ```bash
 cnpm install webpack -webpack-cli -D
 ```
 
-### 2、初始化项目
+`-D`指的是开发过程中使用，只下载到本地
 
-1. 执行命令行`npm init -y`初始化一个默认目录
-2. 新建一个`index.js`，输入一个 js 语句
+2. npx
+
+执行命令`npx webpack`
 
 ### 3、webpack 配置
 
